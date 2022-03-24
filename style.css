@@ -1,0 +1,178 @@
+body {
+    background: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+h1, h5 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 550;
+}
+
+/* Divs */
+
+.whole_div {
+    position: relative;
+
+    background: white;
+    background-image: url(images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: 102%;
+   
+    display: block;
+
+    width: 350px;
+    height: 600px;
+
+    border: black 1px solid;
+    border-radius: 5%;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 2;
+}
+
+/* Text */
+
+.order_summary {
+    max-width: 260px;
+
+    padding-top: 150px;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan {
+    background-color: rgb(235, 235, 235);
+
+    max-width: 260px;
+    max-height: 70px;
+
+    border: black 2px solid;
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan_block {
+    display: block;
+
+    padding-right: 35px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#price {
+    margin-top: -15px;
+    color: rgb(77, 174, 191);
+}
+
+#change {
+    font-size: 14px;
+    text-decoration: none;
+
+    margin-right: 10px;
+}
+
+#icon_music {
+    padding-left: 20px;
+}
+
+#text {
+    font-weight: 500;
+    line-height: 1.5em;
+    color: rgb(77, 174, 191);
+}
+
+/* Buttons */
+
+.buttons {
+    margin-top: 25px;
+}
+
+#payment_button {
+    width: 260px;
+    height: 42px;
+
+    background-color: white;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    transition: background 0.2s linear;
+
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    margin-bottom: 25px;
+}
+
+#cancel_button {
+    width: 260px;
+    height: 42px;
+
+    background-color: white;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    transition: background 0.2s linear;
+
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    display: block;
+
+    margin: auto;
+}
+
+#text_dec {
+    color: black;
+    text-decoration: none;
+}
+
+#payment_button:hover {
+    background-color: rgb(61, 81, 156);
+
+    cursor: pointer;
+}
+
+#payment_button:visited {
+    background-color: white;
+}
+
+#cancel_button:hover {
+    background-color: rgb(61, 81, 156);
+
+    cursor: pointer;
+}
+
+#cancel_button:visited {
+    background-color: white;
+}
